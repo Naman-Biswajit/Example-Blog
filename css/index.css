@@ -19,3 +19,16 @@ section {
 .text {
     padding-top: 20px;
 }
+
+.footer-content {
+    font-size: medium;
+    padding: 4px;
+}
+
+footer p a {
+    color: blue;
+}
+
+a {
+    color: magenta
+}
