@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: #222222;
+    background-color: #1a1c1d;
     color: white;
 }
 
 nav {
     z-index: 1000;
     position: sticky;
-    background-color: #546bb1;
+    background-color: #3f518a;
     height: 80px;
     width: 100%;
     top: 0;
