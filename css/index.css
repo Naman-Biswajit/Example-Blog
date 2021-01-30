@@ -12,23 +12,27 @@ section {
     max-width: 700px;
 }
 
-.flex {
-    display: flex;
+footer {
+    position: relative;
+    top: 210%;
 }
 
-.text {
-    padding-top: 20px;
+.page {
+    position: relative;
+    padding: 1em;
 }
 
-.footer-content {
-    font-size: medium;
-    padding: 4px;
+.counts {
+    position: relative;
+    top: 5px;
 }
 
-footer p a {
-    color: blue;
+button {
+    border-radius: 20px;
+    border-style: dotted;
 }
 
-a {
-    color: magenta
+
+.active {
+    color: gold;
 }

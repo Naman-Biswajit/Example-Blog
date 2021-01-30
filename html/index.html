@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 
 <body>
     <nav>
         <label class="logo">Blog</label>
         <ul>
-            <li><a class="current navA" href="">Home</a></li>
-            <li><a class="navA" href="">Contact</a></li>
-            <li><a class="navA" href="">About us</a></li>
-            <li><a class="navA" href=""></a></li>
+            <li><a class="current navA" href="index.html">Home</a></li>
+            <li><a class="navA" href="contact.html">Contact</a></li>
+            <li><a class="navA" href="aboutus.html">About us</a></li>
         </ul>
     </nav>
 
@@ -73,15 +72,27 @@
                 </p>
             </div>
         </div>
-
+        <div class="page flex" id="center">
+            <div class="page-button flex">
+                <button id="previous"><img src="/img/left.png" width="40px" alt="<"></button>
+                
+                <div class="counts flex" id="center">
+                    <div class="num active">1</div>
+                    <div class="num">2</div>
+                    <div class="num">3</div>
+                </div>
+                
+                <button id="next" onclick="window.location.href = '/html/facebook.html'"><img src="/img/right.png"width="40px" alt=">"></button>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <div class="flex">
+        <div class="flex" id="center">
             <p class="footer-content">Check the original content </p> <a class="footer-content"
                 href="https://www.techopedia.com/definition/4956/social-networking-site-sns"> Technopedia</a>
 
-            <p style="padding-left: 5em;" class="footer-content"> images by</p> <a class="footer-content"
+            <p style="padding-left: 5em;" class="footer-content">images by</p> <a class="footer-content"
                 href="https://source.unsplash.com/">Source Unsplash</a>
 
             <p style="padding-left: 5em;" class="footer-content">Made By </p><a class="footer-content"

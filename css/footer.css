@@ -4,3 +4,21 @@ footer {
     background-color: #35ccd48b;
     padding: 1em;
 }
+
+.footer-content {
+    font-size: medium;
+    padding: 4px;
+}
+
+footer p a {
+    color: rgb(72, 231, 255);
+}
+
+#center {
+    justify-content: center;
+}
+
+
+.flex {
+    display: flex;
+}
