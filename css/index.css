@@ -17,6 +17,11 @@ footer {
     top: 210%;
 }
 
+.page-button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .page {
     position: relative;
     padding: 1em;
@@ -35,4 +40,9 @@ button {
 
 .active {
     color: gold;
+}
+
+.counts {
+    padding-left: 6px;   
+    padding-right: 6px;   
 }
